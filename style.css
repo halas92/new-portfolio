@@ -17,7 +17,7 @@
     #story2 {padding-left: 12px; margin-left:10px;}
     #story4 {border-right: 1px solid #e2e2e2; padding-right: 15px;}
     .row {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
-    button.menu-bars {margin-left: 60px;}
+    button.menu-bars {display: none;}
     li.nav-title {padding-right: 60px;}
     button.contact {margin-left: 20px; margin-right: 60px;}}
 
@@ -27,12 +27,12 @@ a.nav-link {color: black; font-weight: 700;}
 a.nav-link:hover {text-decoration: underline;}
 a.navbar-title {display: inline-block; border-radius: 3px; margin: 0 auto; text-align: center;}
 li.nav-title {margin: 0 auto; list-style-type: none;}
-button.contact {background-color: #3452cb; border: 1px solid #1f317a; font-family: 'Open Sans', 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 12px; font-weight: 700;  border-radius: 3px; letter-spacing: .05em; line-height: 11px; padding: 11px 12px 8px; float:right;}
+button.contact {background-color: #3452cb; border: 1px solid #1f317a; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 12px; font-weight: 700;  border-radius: 3px; letter-spacing: .05em; line-height: 11px; padding: 11px 12px 8px; float:right;}
 button.contact:hover {background-color: #1f317a;}
 button.menu-bars {background-color: inherit; width: 40px; display: inline-block; color: black; border: none;}
 i.fas.fa-bars {background color: #d4d4d4; border-radius: 3px;}
 
-.title {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; font-size: 48px; margin-top: 100px; line-height: 48px;}
+.title {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; font-size: 48px; margin-top: 100px; line-height: 48px; margin-bottom: 15px;}
 .subtitle {font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 17px; color: rgb(102, 102, 102); font-weight: 400; line-height: 23px; border-bottom: 1px solid #bfbfbf;}
 .header-item {font-family: 'Helvetica', arial, sans-serif; font-size: 11px; line-height: 11px; display: inline; margin-bottom: 5px;}
 .header {border-bottom: 2px solid black;}
