@@ -3,24 +3,23 @@
 @media only screen and (max-width: 600px) {
     .headline, .container, .title {font-size: 20px; margin: 0 auto; width: 100%; padding-left: 0px; padding-right: 0px;}
     .header {margin-left: 15px;}
-    .navbar, .col-sm-6, #story1, #story4 {margin: 0 auto; width: 100%; padding-right: 0px; border-right: 0px;}
+    .navbar, .col-sm-6, .col-sm-9 {margin: 0 auto; width: 100%; padding-right: 0px; border-right: 0px;}
     .col-sm-6, .col-sm-3, .col-sm-9 {padding-right: 15px; border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
     #photo1 {margin: 0 auto; width: 100%; height: 150;}
     .subtitle {font-size: 14px;}
     .navbar, .caption, .navbar.navbar-expand-lg.navbar-dark.bg-inherit, .row, .byline, nav {font-size: 12px; margin: 0 auto; width: 100%;}
     .photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}
     a.nav-link, button.search, i.fas.fa-search {display: none;}
-    button.menu-bars {margin-left: 0px;}
+    button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     .title {font-size: 32px; margin-top: 25px;}}
 
 @media only screen and (min-width: 600px) {
-    #story2 {padding-left: 12px; margin-left:10px;}
-    #story4 {border-right: 1px solid #e2e2e2; padding-right: 15px;}
     .row {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
     button.menu-bars {display: none;}
     li.nav-title {padding-right: 60px;}
     button.contact {margin-left: 20px; margin-right: 60px;}
+    #left-links {margin-left: 60px;}
     .title {font-size: 48px; margin-top: 45px;}}
 
 a:hover {text-decoration: underline; color: black;}
@@ -31,7 +30,7 @@ a.navbar-title {display: inline-block; border-radius: 3px; margin: 0 auto; text-
 li.nav-title {margin: 0 auto; list-style-type: none;}
 button.contact {background-color: #3452cb; border: 1px solid #1f317a; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 12px; font-weight: 700;  border-radius: 3px; letter-spacing: .05em; line-height: 11px; padding: 11px 12px 8px; float:right;}
 button.contact:hover {background-color: #1f317a;}
-button.menu-bars {background-color: inherit; width: 40px; display: inline-block; color: black; border: none;}
+button.menu-bars {background-color: inherit; width: 40px; color: black; border: none;}
 i.fas.fa-bars {background color: #d4d4d4; border-radius: 3px;}
 
 .title {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; line-height: 48px; margin-bottom: 15px;}
@@ -50,13 +49,8 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 
 .content {max-width: 1600px; margin: 0 auto;}
 .col-sm-6 {margin: 0 auto; display: inline;}
-.col-sm-3 {display: inline-block; margin: 0 auto; min-width: 200px;}
-.col-sm-12 {padding-top: 10px;}
-#story1 {padding-right: 15px;}
-#story2 {display: inline; min-width: 200px;}
-#story3 {display: inline; min-width: 200px;}
-#story4, #story5 {margin: 0 auto; width: 100%;}
-
+.col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}
+#writing-section {border-right: 1px solid #e2e2e2;}
 
 #photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
