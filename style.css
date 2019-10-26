@@ -53,7 +53,7 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 .content {max-width: 1600px; margin: 0 auto;}
 .col-sm-6 {margin: 0 auto; display: inline;}
 .col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}
-#story1, #story2, #story3 {padding-right: 15px;}
+#story1, #story2, #story3, #digital1 {padding-right: 15px;}
 #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
 #writing-section {padding-right: 15px;}
 
