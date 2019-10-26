@@ -14,6 +14,7 @@
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
+    .hero-image {width: 100%; margin: 0 auto; padding-left: 15px; padding-right: 15px;}
     .title {font-size: 32px; margin-top: 25px;}}
 
 @media only screen and (min-width: 600px) {
@@ -22,7 +23,7 @@
     li.nav-title {padding-right: 60px;}
     button.contact {margin-left: 20px; margin-right: 60px;}
     #left-links {margin-left: 60px;}
-    #writing-section {border-right: 1px solid #e2e2e2;}
+    #design-section {border-left: 1px solid #e2e2e2; padding-left: 15px;}}
     .title {font-size: 48px; padding-top: 45px;}}
 
 a:hover {text-decoration: underline; color: black;}
@@ -55,11 +56,10 @@ ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
 .col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}
 #story1, #story2, #story3, #digital1 {padding-right: 15px;}
 #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
-#writing-section {padding-right: 15px;}
-
 
 #photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
+.hero-image {width: 100%; margin: 0 auto; margin-top: 30px; display: inline-block;}
 .caption {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); text-align: left;}
 .summary {margin-bottom: 5px;}
 
