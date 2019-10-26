@@ -26,7 +26,7 @@
     #design-section {border-left: 1px solid #e2e2e2; padding-left: 15px;}}
     .title {font-size: 48px; padding-top: 45px;}}
 
-a:hover {text-decoration: underline; color: black;}
+a:hover {text-decoration: underline; color: #1f317a;}
 a {color: black;}
 a.nav-link {color: white; font-weight: 700;}
 a.nav-link:hover, a.navbar-title:hover {text-decoration: underline;}
