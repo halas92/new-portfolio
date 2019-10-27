@@ -31,7 +31,13 @@ initial-scale=1, shrink-to-fit=no">
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-inherit">
-    <button class="menu-bars" data-toggle="collapse" data-target="sections"><a class="nav-button" href="#"><span><i class="fas fa-bars"></i></span></a></button>
+    <button class="menu-bars" onclick="toggleSidebar()"><a class="nav-button" href="#"><span><i class="fas fa-bars"></i></span></a></button>
+      <div id="sidebar">
+  <ul>
+  <li>Reporting</li>
+  <li>Design</li>
+  <li>Contact</li>
+</ul></div>
 <div id="left-links">
  <li class="nav-item">
   <a class="nav-link" href="https://halas92.github.io/Portfolio/reporting.html">REPORTING</a>
@@ -44,6 +50,10 @@ initial-scale=1, shrink-to-fit=no">
 </li>
  <a href="https://halas92.github.io/Portfolio/scotus.html"><button class="contact">CONTACT</button></a>
 </nav>
+
+<script type="text/javascript">
+function toggleSidebar(){document.getElementById("sidebar").classList.toggle('active');}
+</script>
 
 <div class="container">
   <div class="row">
