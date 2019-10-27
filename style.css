@@ -2,15 +2,13 @@
 
 @media only screen and (max-width: 600px) {
     .headline, .container, .title {font-size: 20px; margin: 0 auto; width: 100%; padding-left: 0px; padding-right: 0px;}
-    .header {margin-left: 15px;}
     .navbar, .col-sm-6, .col-sm-9 {margin: 0 auto; width: 100%; padding-right: 0px; border-right: 0px;}
-    .col-sm-6, .col-sm-3, .col-sm-9 {padding-right: 15px; border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
+    .col-sm-6, .col-sm-9 {padding-right: 15px; border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
     #photo1 {margin: 0 auto; width: 100%; height: 150;}
-    .subtitle {font-size: 14px;}
     .byline {font-size: 12px; margin: 0 auto; width: 100%;}
     .navbar, .caption, .navbar.navbar-expand-lg.navbar-dark.bg-inherit, .row, nav {margin: 0 auto; width: 100%;}
     .photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}
-    a.nav-link, button.search, i.fas.fa-search {display: none;}
+    a.nav-link, li.nav-item {display: none;}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
@@ -23,6 +21,7 @@
     li.nav-title {padding-right: 60px;}
     button.contact {margin-left: 20px; margin-right: 60px;}
     #left-links {margin-left: 60px;}
+    a.nav-link, li.nav-item {display: inline;}
     #design-section {border-left: 1px solid #e2e2e2; padding-left: 15px;}}
     .title {font-size: 48px; padding-top: 45px;}}
 
@@ -52,23 +51,18 @@ padding: 15px 10px;
 border-bottom: 1px solid rgba(100, 100, 100, 0.3);}
 
 .title {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; line-height: 48px; margin-bottom: 15px;}
-.subtitle {font-family: 'Georgia', 'Times New Roman', times, serif; font-size: 17px; color: rgb(102, 102, 102); font-weight: 400; line-height: 23px; border-bottom: 1px solid #bfbfbf;}
-.header-item {font-family: 'Helvetica', arial, sans-serif; font-size: 11px; line-height: 11px; display: inline; margin-bottom: 5px;}
-.header {border-bottom: 2px solid black;}
 
 p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
 
-ul.navbar-nav {margin-left: 20%; display: inline; color: black;}
-.nav-item, .nav-item-active, .nav-link {display: inline; font-size: 1em; color: black; font-family: 'Helvetica', sans-serif;}
+.nav-link, li.nav-item {font-size: 1em; color: white; font-family: 'Helvetica', sans-serif; list-style: none;}
 .navbar {font-family: 'Helvetica', 'Montserrat', sans-serif; color: inherit; width: 100%; border-bottom: 1px solid #bfbfbf; background-image: url(images/banner-option3.jpg);}
 
 .headline {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto; padding-bottom: 5px;}
 .byline {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto; padding-bottom: 10px;}
 
-.content {max-width: 1600px; margin: 0 auto;}
 .col-sm-6 {margin: 0 auto; display: inline;}
 .col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}
-#story1, #story2, #story3, #digital1 {padding-right: 15px;}
+#story1, #story2, #story3, {padding-right: 15px;}
 #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
 
 #photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
