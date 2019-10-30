@@ -53,6 +53,7 @@ padding: 15px 10px;
 border-bottom: 1px solid rgba(100, 100, 100, 0.3);}
 
 .title {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; line-height: 48px; margin-bottom: 15px;}
+#header {margin-bottom: 5px;}
 
 p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
 
