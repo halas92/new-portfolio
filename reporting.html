@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,
 initial-scale=1, shrink-to-fit=no">
 
-<title>Horus Alas - Writer, Reporter, Designer</title>
+<title>Reported Stories - Horus Alas</title>
 <meta name="description" content="Personal site showcasing reporting and digital work">
 
 <!-- JQuery Script -->
@@ -20,7 +20,7 @@ initial-scale=1, shrink-to-fit=no">
 <!-- Load c3.css -->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
    <!-- Load our CSS -->
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="sections.css">
    <!-- Load d3.js and c3.js -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
@@ -31,36 +31,83 @@ initial-scale=1, shrink-to-fit=no">
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-inherit">
-    <button class="menu-bars" data-toggle="collapse" data-target="sections"><i class="fas fa-bars"></i></button>
- <li class="nav-item">
-  <a class="nav-link" href="https://www.nytimes.com/section/style">REPORTING</a>
+    <button class="menu-bars" onclick="toggleSidebar()"><a class="nav-button" href="#"><span><i class="fas fa-bars"></i></span></a></button>
+      <div id="sidebar">
+  <ul>
+  <li>Reporting</li>
+  <li>Design</li>
+  <li>Contact</li>
+</ul></div>
+<div id="left-links">
+ <li class="nav-item" style="display: none;">
+  <a id="reporting" href="https://halas92.github.io/Portfolio/reporting.html" a class="nav-link">REPORTING</a>
  </li>
  <li class="nav-item">
-  <a class="nav-link" href="https://www.nytimes.com/section/style">DESIGN</a>
- </li>
+  <a class="nav-link" href="https://halas92.github.io/Portfolio/design.html">DESIGN</a>
+</li></div>
  <li class="nav-title">
- <a class="navbar-title" href="https://halas92.github.io/Portfolio/"><img src="signature.jpg" height= 40 margin: 0 auto;></a>
+ <a class="navbar-title" href="https://halas92.github.io/Portfolio/" margin: 0 auto;>HORUS ALAS</a>
 </li>
- <a href="https://halas92.github.io/Portfolio/scotus.html"><button class="contact">CONTACT</button></a>
+ <a href="https://halas92.github.io/Portfolio/contact.html"><button class="contact">CONTACT</button></a>
 </nav>
 
-<div class="container">
-  <div class="row">
-  <div class="col-sm-3">
-  <div id="photo1"><img src= "portrait.jpg" width=100% div class="photos"></div></div>
-  <div class="col-sm-9">
-  <p class="title">Horus Alas</p>
-  <p class="summary">Horus Alas is a master's student at the University of Maryland's Philip Merrill College of Journalism.</p>
-</div></div>
+<script type="text/javascript">
+function toggleSidebar(){document.getElementById("sidebar").classList.toggle('active');}
+</script>
 
+<div class="container">
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6"><div id="writing-section">
   <p class="title">Writing and Reporting</p>
-<p class="summary">A series of Horus' selected stories.</p></div>
-  <div class="col-sm-6">
-  <p class="title">Digital Design</p>
-<p class="summary">Websites and digital content designed by Horus.</div>
+<p class="summary" p id="subtitle">A selection of Horus' most recent published stories.</p>
+<div id=story1>
+<div id="photo2"><a href="https://cnsmaryland.org/2019/10/25/in-baltimore-presidents-family-and-friends-bid-cummings-a-final-farewell/"><img src="images/cummings-funeral.jpg" width=100% div class="photos"></a>
+<p class="caption">BALTIMORE - A program for the late Rep. Elijah Cummings's funeral lies on the ground outside New Psalmist Baptist Church. (Heather Kim/Capital News Service)</p></div>
+<div class="headline"><a href="https://cnsmaryland.org/2019/10/25/in-baltimore-presidents-family-and-friends-bid-cummings-a-final-farewell/">In Baltimore, presidents, family and friends bid Cummings a final farewell</a></div>
+<div class="byline">Oct. 25, 2019 &bull; By NORA ECKERT, DAN NOVAK, SAMANTHA HAWKINS, DANA gRAY, AYANA ARCHIE, HEATHER KIM and <a href="https://cnsmaryland.org/author/horusalas/">HORUS ALAS,</a> Capital News Service</div>
+<p class="summary">BALTIMORE – Three days of commemorations for the late Rep. Elijah Cummings concluded Friday with a funeral service marked by eloquence, tears, laughter and pointed political commentary at New Psalmist Baptist Church.
+<br><br>
+Two former presidents, members of his staff, friends and family repeatedly turned to themes of honor, integrity and justice – qualities reflected in the career of the Democratic congressman from Baltimore.</p>
+</div>
+<div id="story2">
+<div id="photo2"><a href="https://cnsmaryland.org/2019/10/24/congress-pays-tribute-to-elijah-cummings-at-u-s-capitol/"><img src="images/ap-cummings.jpg" width=100% div class="photos"></a>
+<p class="caption">WASHINGTON - Widow Maya Rockeymoore Cummings raises her arms at the casket during a memorial service for Rep. Elijah Cummings, D-Maryland, at the United States Capitol Thursday as the leaders of Congress from both parties look on. (Al Drago/Pool via Associated Press)</p></div>
+<div class="headline"><a href="https://cnsmaryland.org/2019/10/24/congress-pays-tribute-to-elijah-cummings-at-u-s-capitol/">Congress pays tribute to Elijah Cummings at U.S. Capitol</a></div>
+<div class="byline">Oct. 24, 2019 &bull; By <a href="https://cnsmaryland.org/author/horusalas/">HORUS ALAS,</a> NORA ECKERT, SAMANTHA HAWKINS, GABRIELLE WANNEH AND DAN NOVAK, Capital News Service</div>
+<p class="summary">WASHINGTON - Carried by Armed Forces body bearers, the late Rep. Elijah Cummings’s flag-draped casket ascended the steps of the United States Capitol Thursday morning and was placed on a catafalque in National Statuary Hall, where he became the first black elected official to lie in state there.
+<br><br>
+Maya Rockeymoore Cummings stood at the entrance as the soldiers, sailors and Marines brought her husband’s body into the historic former House chamber where Abraham Lincoln once served. Her right hand covered her heart as she struggled to hold back tears.</p>
+</div>
+<div id="story3">
+<div id="photo2"><a href="https://halas92.github.io/JOUR-689F-Designs/scotus.html"><img src="images/newscotus10-16.jpg" width=100% div class="photos"></a>
+<p class="caption">WASHINGTON - Crowds wait in line Wednesday, Oct. 16 to hear oral arguments outside the U.S. Supreme Court. (Horus Alas)</p></div>
+<div class="headline"><a href="https://halas92.github.io/JOUR-689F-Designs/scotus.html">At the Supreme Court, justice meets inertia</a></div>
+<div class="byline">Oct. 21, 2019 &bull; By HORUS ALAS</div>
+<p class="summary">WASHINGTON - A languid rain fell outside the U.S. Supreme Court Oct. 16 as Virginia Solicitor General Toby Heytens rose from the petitioner’s bench. The courtroom’s stillness echoed beneath a frieze high on the south wall depicting ancient lawgivers like Hammurabi and Augustus.
+<br><br>
+Heytens—a plump man with a bald crown and graying brown hair—argued Virginia’s position for upholding a convicted sniper’s four juvenile life sentences without parole before the highest court in the land.
+</p>
+</div>
+<div id="story4">
+<div id="photo2"><a href="https://cnsmaryland.org/2019/10/17/veteran-baltimore-congressman-and-trump-protagonist-elijah-cummings-dies-at-68-2/"><img src="images/cummings.jpg" width=100% div class="photos"></a>
+<p class="caption">BALTIMORE - Rep. Elijah Cummings, D-Baltimore, speaks against President Donald Trump's health care policies on Oct. 2, 2018. (Lauren Koenig/Capital News Service)</p></div>
+<div class="headline"><a href="https://cnsmaryland.org/2019/10/17/veteran-baltimore-congressman-and-trump-protagonist-elijah-cummings-dies-at-68-2/">Veteran Baltimore congressman and Trump era protagonist Elijah Cummings dies at 68</a></div>
+<div class="byline">Oct. 17, 2019 &bull; By <a href="https://cnsmaryland.org/author/horusalas/">HORUS ALAS,</a> Capital News Service</div>
+<p class="summary">WASHINGTON – Rep. Elijah Cummings, a veteran Democratic congressman who represented Baltimore and served as a key figure in the impeachment inquiry into President Donald Trump, died Thursday due to “long-standing health problems,” his office said. He was 68.
+<br><br>
+Cummings spent decades advocating for civil rights in Baltimore and represented Maryland’s 7th Congressional district since 1996. He had previously served 13 years as a delegate in the Maryland State House. A spokeswoman said he died at Gilchrist Hospice Care in Baltimore at 2:45 am.</p>
+</div>
+<div id="story5">
+<div id="photo2"><a href="https://cnsmaryland.org/2019/10/11/supreme-court-to-weigh-virginia-life-sentences-in-washington-sniper-case/"><img src="images/scotus.jpg" width=100% div class="photos"></a>
+<p class="caption">WASHINGTON - The Supreme Court of the United States, where justices will hear a case challenging the life sentences without parole for Lee Boyd Malvo, one of the so-called "D.C. snipers." (Heather Kim/Capital News Service) </p></div>
+<div class="headline"><a href="https://cnsmaryland.org/2019/10/11/supreme-court-to-weigh-virginia-life-sentences-in-washington-sniper-case/">Supreme Court to weigh Virginia life sentences in Washington sniper case</a></div>
+<div class="byline">Oct. 16, 2019 &bull; By <a href="https://cnsmaryland.org/author/horusalas/">HORUS ALAS,</a> Capital News Service</div>
+<p class="summary">WASHINGTON – The Supreme Court will hear oral arguments Wednesday over whether to uphold Virginia’s life sentences without parole imposed on Washington sniper Lee Boyd Malvo for murders and other crimes committed when he was 17.
+<br><br>
+Malvo and his partner, John Allen Muhammad, terrorized Washington, Maryland and Virginia in a series of shootings that killled 10 and wounded three others beginning Oct. 2, 2002. The infamous “D.C. snipers” were apprehended 22 days later at a rest stop near Myersville, Maryland.</p>
+</div>
+</div></div>
 </div></div>
 
 <div id=footer><div id="ftext"><br>Created by Horus Alas for professional use.<br><br>
