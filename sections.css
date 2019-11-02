@@ -25,7 +25,7 @@
     a.nav-link, li.nav-item {display: inline;}
     .title {font-size: 48px; padding-top: 45px;}}
 
-a:hover {text-decoration: underline; color: #1f317a;}
+a:hover {text-decoration: underline; color: #3452cb;}
 a {color: black;}
 a.nav-link, a.nav-button {color: white; font-weight: 700;}
 a.nav-button {transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;}
