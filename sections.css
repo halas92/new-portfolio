@@ -65,7 +65,7 @@ p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia
 .col-sm-6 {margin: 0 auto; display: inline;}
 .col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}
 #story1, #story2, #story3, {padding-right: 15px;}
-#story1, #story2, #story3, #story4, #digital1, #digital2, #digital3, #digital4 {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
+.stories, #story1, #story2, #story3, #story4, #story5, #story6, #story7, #digital1, #digital2, #digital3, #digital4 {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
 
 #photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
 .photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
