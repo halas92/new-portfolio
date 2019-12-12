@@ -10,6 +10,8 @@
     .photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}
     a.nav-link, li.nav-item {display: none;}
     a.navbar-title {margin-left: 80px;}
+    .hero-intro, p#hero-title.title {font-size: 1em;}
+    p#hero-sub.subtitle {font-size: .75em;}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
@@ -24,6 +26,8 @@
     .row {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
     li.nav-title {padding-right: 60px; margin: 0 auto;}
     button.contact {margin-left: 20px; margin-right: 60px;}
+    .hero-intro, p#hero-title.title {font-size: 2em;}
+    p#hero-sub.subtitle {font-size: 1em;}
     #left-links {margin-left: 60px;}
     a.nav-link, li.nav-item {display: inline;}
     #design-section {padding-left: 15px;}
@@ -34,16 +38,19 @@
 
 a:hover {text-decoration: underline; color: #1f317a;}
 a {color: black;}
-a.nav-link, a.nav-button {color: white; font-weight: 700;}
+a.nav-button {color: white; font-weight: 700;}
 a.nav-button {transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;}
+a.nav-link {color: black; font-weight: 700;}
 a.nav-link:hover, a.navbar-title:hover {text-decoration: underline;}
-a.navbar-title {display: inline-block; border-radius: 3px; text-align: center; color: white; font-family: 'Helvetica', sans-serif; font-weight: 700; font-size: 1em;}
+a.navbar-title {display: inline-block; border-radius: 3px; text-align: center; color: black; font-family: 'Proxima Nova', 'Helvetica', sans-serif; font-weight: 700; font-size: 1.25em;}
 li.nav-title {margin: 0 auto; list-style-type: none;}
-button.contact {background-color: #3452cb; border: 1px solid #1f317a; font-family: 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 12px; font-weight: 700;  border-radius: 3px; letter-spacing: .05em; line-height: 11px; padding: 11px 12px 8px; float:right;}
+button.contact {background-color: #3452cb; border: 1px solid #1f317a; font-family: 'Proxima Nova', 'Helvetica', sans-serif; color: #fff; cursor: pointer; font-size: 12px; font-weight: 700;  border-radius: 3px; letter-spacing: .05em; line-height: 11px; padding: 11px 12px 8px; float:right;}
 button.contact:hover {background-color: #1f317a;}
 button.menu-bars {background-color: inherit; width: 40px; color: white; border: none; position: absolute;}
 button.menu-bars:hover {background-color: #373433;}
 i.fas.fa-bars {background color: #d4d4d4; border-radius: 3px;}
+
+html {scroll-behavior: smooth;}
 
 #sidebar {position: fixed;
 width: 200px;
@@ -62,16 +69,23 @@ z-index: 1;}
 #header {margin-bottom: 5px;}
 
 p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
-p#hero-title.title {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold; font-size: 2.5em;}
-p#hero-sub.subtitle {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold; font-size: 1.5em;}
 
-.nav-link, li.nav-item {font-size: 1em; color: white; font-family: 'Helvetica', sans-serif; list-style: none;}
-.navbar {font-family: 'Helvetica', 'Montserrat', sans-serif; color: inherit; width: 100%; border-bottom: 1px solid #bfbfbf; background-image: url(images/banner-option3.jpg);}
+p#hero-title.title {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold; margin-bottom: 0px;}
+p#hero-sub.subtitle {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold;}
+i.fas.fa-chevron-circle-right::before {color: #21438a; background-color: white; transition: .5s;}
+i.fas.fa-chevron-circle-left::before {color: #21438a; background-color: white; transition: .5s; margin-right: 10px;}
+a.arrow-previous {transition: .5s;}
+a.arrow-previous:hover {font-size: 150%; transition: .5s;}
+a.arrow-next {transition: .5s;}
+a.arrow-next:hover {font-size: 150%; transition: .5s;}
+
+.nav-link, li.nav-item {font-size: 1.25em; color: black; font-family: 'Proxima Nova', 'Helvetica', sans-serif; list-style: none;}
+.navbar {font-family: 'Proxima Nova', 'Helvetica', sans-serif; color: inherit; width: 100%; border-bottom: 1px solid #bfbfbf;}
 
 .headline {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-size: 26px; font-weight: 200; color: black; text-align: left; margin: 0 auto; padding-bottom: 5px;}
 .byline {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto; padding-bottom: 10px;}
 
-.hero-intro {padding-left: 15px; position: absolute; top: 200px; display: block;}
+.hero-intro {padding-left: 15px; position: absolute; top: 5%; display: block; width: 100%;}
 .hero-container {display: block; position: relative; width: 100%; height: 100vh;}
 
 .col-sm-6 {margin: 0 auto; display: inline;}
