@@ -10,8 +10,9 @@
     .photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}
     a.nav-link, li.nav-item {display: none;}
     a.navbar-title {margin-left: 80px;}
-    .hero-intro, p#hero-title.title {font-size: 1em;}
+    .hero-intro, p#hero-title.title {font-size: 1.5em;}
     p#hero-sub.subtitle {font-size: .75em;}
+    #hero-about {width: 100%;}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
@@ -23,12 +24,13 @@
 @media only screen and (min-width: 667px) {button.menu-bars {display: none;}}
 
 @media only screen and (min-width: 600px) {
-    .row {border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
+    .row {padding-bottom: 10px;}
     li.nav-title {padding-right: 60px; margin: 0 auto;}
     button.contact {margin-left: 20px; margin-right: 60px;}
     .hero-intro, p#hero-title.title {font-size: 2em;}
     p#hero-sub.subtitle {font-size: 1em;}
     #left-links {margin-left: 60px;}
+    #about-photo {display: inline; width: 50%;}
     a.nav-link, li.nav-item {display: inline;}
     #design-section {padding-left: 15px;}
     #writing-section {border-right: 1px solid #e2e2e2;}
@@ -78,6 +80,10 @@ a.arrow-previous {transition: .5s;}
 a.arrow-previous:hover {font-size: 150%; transition: .5s;}
 a.arrow-next {transition: .5s;}
 a.arrow-next:hover {font-size: 150%; transition: .5s;}
+#hero-about {width: 100%;}
+#about-summary1 {position: relative;}
+
+
 
 .nav-link, li.nav-item {font-size: 1.25em; color: black; font-family: 'Proxima Nova', 'Helvetica', sans-serif; list-style: none;}
 .navbar {font-family: 'Proxima Nova', 'Helvetica', sans-serif; color: inherit; width: 100%; border-bottom: 1px solid #bfbfbf;}
