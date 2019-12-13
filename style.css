@@ -15,8 +15,8 @@
     p#hero-sub.subtitle, .hero-footer {font-size: .75em;}
     p.hero-text {font-size: 1em; bottom: 45%;}
     #hero-about {width: 100%;}
-    #hero-image1 {width: auto; position: relative; right: 380px;}
-    .hero-image {width: 100%;}
+    #hero-image1 {width: auto; right: 400px;}
+    .hero-image {width: 100%; position: relative;}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
