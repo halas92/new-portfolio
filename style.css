@@ -27,6 +27,7 @@ overflow-x: scroll; overflow-y: hidden; white-space: nowrap; padding-left: 0px; 
   p.summary {font-size: 10px; line-height: 110%; display: block;}
   p.hero-text {font-size: .75em; bottom: 45%; background-color: rgb(0,0,0, 0.7);}
   #portrait-photo {width: 25%; margin-bottom: 5px;}
+  #about-intro {top: 1%;}
   #footer {font-size: 8px;}}
 
 @media only screen and (min-width: 600px) {
