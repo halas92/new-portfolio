@@ -13,7 +13,7 @@
     .hero-container {overflow-x: hidden;}
     .hero-intro, p#hero-title.title {font-size: 1.25em;}
     p#hero-sub.subtitle, .hero-footer {font-size: .75em;}
-    p.hero-text {font-size: 1.25em; bottom: 45%;}
+    p.hero-text {font-size: 1em; bottom: 45%;}
     #hero-about {width: 100%;}
     #hero-image1 {width: auto; position: relative; right: 380px;}
     .hero-image {width: 100%;}
