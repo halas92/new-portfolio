@@ -2,8 +2,8 @@
 
 @media only screen and (max-width: 600px) {
     .headline, .container, .title {font-size: 32px; margin: 0 auto; width: 100%; padding-left: 0px; padding-right: 0px;}
-    .navbar, .col-sm-6, .col-sm-9 {margin: 0 auto; width: 100%; padding-right: 0px; border-right: 0px;}
-    .col-sm-6, .col-sm-9 {padding-right: 15px; border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
+    .navbar, .col-sm-6, {margin: 0 auto; width: 100%; padding-right: 0px; border-right: 0px;}
+    .col-sm-6 {padding-right: 15px; border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
     #photo1 {margin: 0 auto; width: 100%; height: 150;}
     .byline {font-size: 12px; margin: 0 auto; width: 100%;}
     .navbar, .caption, .navbar.navbar-expand-lg.navbar-dark.bg-inherit, .row, nav {margin: 0 auto; width: 100%;}
@@ -15,8 +15,6 @@
     p#hero-sub.subtitle, .hero-footer {font-size: .75em;}
     .hero-footer {padding-left: 15px; padding-right: 15px;}
     p.hero-text {font-size: 1em; bottom: 45%;}
-    #hero-about {width: 100%;}
-    #hero-image1 {width: auto; right: 400px;}
     #reporting-text, #design-text {bottom: 54%;}
     #reporting-footer, #design-footer {bottom: 6%;}
     .hero-image {width: 100%; position: relative;}
@@ -24,11 +22,12 @@
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
     i.far.fa-envelope::before, i.fab.fa-linkedin-in::before {font-size: 20px;}
-    .hero-image {width: 100%; margin: 0 auto; padding-left: 15px; padding-right: 15px;}
     .title {margin-top: 15px;}}
 
-@media only screen and (max-width: 400px) {
-  #hero-image1 {width: auto; right: 400px;}}
+@media only screen and (max-width: 400px) {p#hero-title.title {font-size: 1em;}
+  .hero-intro {font-size: 1em; margin-bottom: 10px;}
+  p#hero-sub.subtitle, .hero-footer {font-size: .5em;}
+  p.hero-text {font-size: .75em; bottom: 45%;}}
 
 @media only screen and (max-width: 667px) {#reporting {display: none;}}
 @media only screen and (min-width: 667px) {button.menu-bars {display: none;}}
