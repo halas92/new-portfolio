@@ -52,7 +52,7 @@ body {overflow-x: scroll; width: 100%;}
 .title {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; line-height: 48px; margin-bottom: 15px;}
 p {text-align:left; line-height:180%; font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-size: 15px;}
 p.hero-text, p.hero-footer {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif;}
-p.hero-text {position: absolute; color: white; font-weight: 600; padding-left: 15px; background-color: rgb(55,54,53,0.7); opacity: 70% !important; -webkit-opacity: 0.7; filter:alpha(opacity=70); padding-right: 15px; width: 100%; white-space: normal;}
+p.hero-text {position: absolute; color: white; font-weight: 600; padding-left: 15px; background-color: rgb(55,54,53,0.7); padding-right: 15px; width: 100%; white-space: normal;}
 p.hero-footer {position: absolute; bottom: 4%; color: white; font-weight: 500; margin: 0 auto; width: 100%; text-align: center; width: 100%; white-space: normal;}
 p.first-letter {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; background: #21438a; color: white; font-weight: 400; display: inline-flex;}
 p.first-line {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; text-transform: uppercase; font-weight: bold; display: inline; margin-bottom: 0px;}
