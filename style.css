@@ -13,20 +13,22 @@
     .hero-container {overflow-x: hidden;}
     .hero-intro, p#hero-title.title {font-size: 1.25em;}
     p#hero-sub.subtitle, .hero-footer {font-size: .75em;}
+    .hero-footer {padding-left: 15px; padding-right: 15px;}
     p.hero-text {font-size: 1em; bottom: 45%;}
     #hero-about {width: 100%;}
     #hero-image1 {width: auto; right: 400px;}
+    #reporting-text, #design-text {bottom: 54%;}
+    #reporting-footer, #design-footer {bottom: 6%;}
     .hero-image {width: 100%; position: relative;}
     button.menu-bars {margin-left: 0px; display: inline-block;}
     button.contact {margin-left: auto; margin-right: 15px;}
     #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
     i.far.fa-envelope::before, i.fab.fa-linkedin-in::before {font-size: 20px;}
     .hero-image {width: 100%; margin: 0 auto; padding-left: 15px; padding-right: 15px;}
-    .title {margin-top: 25px;}}
+    .title {margin-top: 15px;}}
 
 @media only screen and (max-width: 400px) {
-  #hero-image1 {width: auto; right: 400px;}
-}
+  #hero-image1 {width: auto; right: 400px;}}
 
 @media only screen and (max-width: 667px) {#reporting {display: none;}}
 @media only screen and (min-width: 667px) {button.menu-bars {display: none;}}
@@ -35,9 +37,12 @@
     .row {padding-bottom: 10px;}
     li.nav-title {padding-right: 60px; margin: 0 auto;}
     button.contact {margin-left: 20px; margin-right: 60px;}
-    .hero-intro, p#hero-title.title {font-size: 2em;}
-    p#hero-sub.subtitle, p.hero-footer {font-size: 1em;}
-    p.hero-text {font-size: 2em; bottom: 50%;}
+    .hero-intro, p#hero-title.title {font-size: 1.5em;}
+    p#hero-sub.subtitle, {font-size: 1em;}
+    p.hero-text {font-size: 1.5em; bottom: 50%;}
+    p.hero-footer {font-size: 1em; margin-left: 30px; margin-right: 30px;}
+    #reporting-text, #design-text {font-size: 1.5em;}
+    #reporting-footer {padding-left: 30px; padding-right: 30px;}
     #left-links {margin-left: 60px;}
     #about-photo {display: inline; width: 50%;}
     .hero-image {width: inherit; margin: 0 auto;}
@@ -46,7 +51,7 @@
     #writing-section {border-right: 1px solid #e2e2e2;}
     .stories {padding-right: 15px;}
     i.far.fa-envelope::before, i.fab.fa-linkedin-in::before {font-size: 24px;}
-    .title {font-size: 48px; padding-top: 45px;}}
+    .title {font-size: 48px; padding-top: 20px;}}
 
 a:hover {text-decoration: underline; color: #1f317a;}
 a {color: black;}
@@ -84,7 +89,7 @@ z-index: 1;}
 p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
 p.hero-text, p.hero-footer {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif;}
 p.hero-text {position: absolute; color: white; font-weight: 600; padding-left: 15px; background-color: #373635; opacity: 70%; padding-right: 15px; width: 100%;}
-p.hero-footer {position: absolute; bottom: 4%; color: white; font-weight: 400; margin: 0 auto; width: 100%; text-align: center;}
+p.hero-footer {position: absolute; bottom: 4%; color: white; font-weight: 400; margin: 0 auto; width: 100%; text-align: center; width: 100%;}
 
 
 p#hero-title.title {font-family: 'Proxima Nova', 'Noto Sans', 'Open Sans', Arial, sans-serif; font-weight: bold; margin-bottom: 0px;}
@@ -95,6 +100,9 @@ a.arrow-previous {transition: .5s;}
 a.arrow-previous:hover {font-size: 150%; transition: .5s;}
 a.arrow-next {transition: .5s;}
 a.arrow-next:hover {font-size: 150%; transition: .5s;}
+#hero-home {background-image: url("images/capitol-night1.jpg");}
+#hero-reporting {background-image: url("images/hearing1.jpg");}
+#hero-design {background-image: url("images/newscotus10-16.jpg");}
 #hero-about {width: 100%;}
 #about-summary1 {position: relative;}
 
@@ -107,7 +115,7 @@ a.arrow-next:hover {font-size: 150%; transition: .5s;}
 .byline {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto; padding-bottom: 10px;}
 
 .hero-intro {position: absolute; top: 5%; display: block; width: 100%; background-color: white; opacity: 70%; padding-left: 15px;}
-.hero-container {display: block; position: relative; width: 100%; height: 100vh; background-repeat: no-repeat;}
+.hero-container {display: block; position: relative; width: 100%; height: 100vh; background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover;}
 
 .col-sm-6 {margin: 0 auto; display: inline;}
 .col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}

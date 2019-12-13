@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width,
-initial-scale=1, shrink-to-fit=no">
+initial-scale=1.0, shrink-to-fit=no">
 
 <title>Horus Alas - Writer | Reporter | Designer</title>
 <meta name="description" content="Personal site showcasing reporting and digital work">
@@ -38,11 +38,10 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 </script>
 
 <!-- Begin Hero Container-->
-<div class="hero-container">
-<img src="images/capitol-night1.jpg" height="100vh" div id="hero-image1" div class="hero-image">
+<div class="hero-container" div id="hero-home">
 <div class="hero-intro" div id="hero1">
 <p class="title" p id="hero-title">Horus Alas</p>
-<p class="subtitle" p id="hero-sub"> <a href="https://halas92.github.io/Portfolio/reporting.html"><span style="color: rgb(33, 67, 138);">Writer</span> | <span style="color: #21438a;"> Reporter</span></a> <a href="https://halas92.github.io/Portfolio/design.html"> | <span style="color: #21438a;">Designer</span></a></p>
+<p class="subtitle" p id="hero-sub"> <a href="https://halas92.github.io/Portfolio/reporting.html"><span style="color: rgb(33, 67, 138);">Writer</span> | <span style="color: #21438a;"> Reporter</span></a> | <a href="https://halas92.github.io/Portfolio/design.html"><span style="color: #21438a;">Designer</span></a></p>
 <a href="#nav1" a class="arrow-next"><i class="fas fa-chevron-circle-right"></i></a>
 </div>
 <p class="hero-text">Horus Alas is a reporter and digital designer based near Washington, D.C.</p>
@@ -50,7 +49,7 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 </div>
 <!--End Hero Container-->
 
-<!--Begin Splash Reporting Container-->
+<!--Begin Reporting Container-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-inherit" nav id="nav1">
   <button class="menu-bars" onClick="toggleSidebar()"><a class="nav-button" href="#sidebar"><span><i class="fas fa-bars"></i></span></a></button>
     <div id="sidebar">
@@ -69,15 +68,17 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 <a href="https://halas92.github.io/Portfolio/contact.html"><button class="contact">CONTACT</button></a>
 </nav>
 
-<div class="hero-container">
-<div class="hero-intro" div id="hero-reporting">
+<div class="hero-container" div id="hero-reporting">
+<div class="hero-intro" div id="reporting-intro">
 <p class="title" p id="hero-title">Horus Alas</p>
-<p class="subtitle" p id="hero-sub"> <a href="https://halas92.github.io/Portfolio/reporting.html"><span style="color: rgb(33, 67, 138);">Writer</span> | <span style="color: #21438a;"> Reporter</span></a> <a href="https://halas92.github.io/Portfolio/design.html"> | Designer</a></p>
+<p class="subtitle" p id="hero-sub"> <a href="https://halas92.github.io/Portfolio/reporting.html"><span style="color: rgb(33, 67, 138);">Writer</span> | <span style="color: #21438a;"> Reporter</span></a> | <a href="https://halas92.github.io/Portfolio/design.html">Designer</a></p>
 <a href="#" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a>
 <a href="#nav2" a class="arrow-next"><i class="fas fa-chevron-circle-right"></i></a>
 </div>
+<p class="hero-text" p id="reporting-text">Horus has covered the Supreme Court, Maryland's Congressional delegation, and the impeachment investigation.</p>
+<p class="hero-footer" p id="reporting-footer">WASHINGTON - The House Intelligence Committee's final public hearing in the impeachment investigation into President Donald Trump Nov. 21, 2019. Photo and design by Horus Alas.</p>
 </div>
-<!--End Splash Reporting Container-->
+<!--End Reporting Container-->
 
 <!--Begin Design Container-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-inherit" nav id="nav2">
@@ -98,13 +99,15 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 <a href="https://halas92.github.io/Portfolio/contact.html"><button class="contact">CONTACT</button></a>
 </nav>
 
-<div class="hero-container">
-<div class="hero-intro" div id="hero-design">
+<div class="hero-container" div id="hero-design">
+<div class="hero-intro" div id="design-intro">
 <p class="title" p id="hero-title">Horus Alas</p>
-<p class="subtitle" p id="hero-sub"><a href="https://halas92.github.io/Portfolio/reporting.html"> Writer | Reporter </a><a href="https://halas92.github.io/Portfolio/design.html">| <span style="color: #21438a;">Designer<span></a></p>
+<p class="subtitle" p id="hero-sub"><a href="https://halas92.github.io/Portfolio/reporting.html"> Writer | Reporter </a>| <a href="https://halas92.github.io/Portfolio/design.html"><span style="color: #21438a;">Designer<span></a></p>
 <a href="#nav1" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a>
 <a href="#nav3" a class="arrow-next"><i class="fas fa-chevron-circle-right"></i></a>
 </div>
+<p class="hero-text" p id="design-text">Horus' digital designs include journalistic stories with interactive graphics, product demos, a New York Times Style section mockup, and more.</p>
+<p class="hero-footer" p id="design-footer">WASHINGTON - Crowds wait outside the U.S. Supreme Court before oral arguments in the Supreme Court case <i>Mathena v. Malvo</i> Oct. 16, 2019. Photo and design by Horus Alas.</p>
 </div>
 <!--End Design Container-->
 
@@ -131,19 +134,10 @@ function toggleSidebar(){document.getElementById("sidebar").classList.toggle('ac
 </nav>
 
 <div class="hero-container">
-<div class="row">
-<div class="col-sm-6">
 <div class="hero-intro" div id="hero-about">
 <p class="title" p id="hero-title"><span style="color: #21438a;">Horus Alas</span></p>
 <p class="subtitle" p id="hero-sub"><a href="https://halas92.github.io/Portfolio/reporting.html"> Writer | Reporter</a> <a href="https://halas92.github.io/Portfolio/design.html">| Designer</a></p>
-<a href="#nav2" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a>
-</div>
-<p class="summary" p id="about-summary1">Horus Alas is a writer, reporter, copyeditor and digital designer based in the Washington, D.C. area.<br><br>
-His reporting covers national politics and policy, focusing on Maryland's congressional delegation, federal appropriations and the Supreme Court. He thrives reporting on these topics, as well as feature and enterprise stories highlighting the human element within larger events.<br><br>
-</div>
-<div class="col-sm-6">
-<div id="about-photo"><img src= "images/portrait.jpg" width=50% div class="photos"></div></div>
-</div>
+<a href="#nav2" a class="arrow-previous"><i class="fas fa-chevron-circle-left"></i></a></div>
 </div>
 <!--End About Container-->
 
